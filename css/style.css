@@ -199,6 +199,9 @@
         width: 75%;
         height: 75%;
     }
+    .form-control {
+        max-width: 20rem;
+    }
 }
 
 @media (min-width: 601px) {
