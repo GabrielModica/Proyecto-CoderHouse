@@ -1,258 +1,267 @@
 @import "variables";
 
 * {
-    margin: 0;
-    padding: 0;
-    background-color: $mainColor;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bolder;
+  margin: 0;
+  padding: 0;
+  background-color: $mainColor;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
 }
 
 .video {
-    margin: 30px;
-    border-color: #463f3a;
+  margin: 30px;
+  border-color: #463f3a;
 }
 
 .botonWhatsApp img {
-    width: 45px;
-    position: fixed;
-    bottom: 80px;
-    right: 10px;
-    background: none;
+  width: 45px;
+  position: fixed;
+  bottom: 80px;
+  right: 10px;
+  background: none;
 }
 
 .botonInstagram img {
-    width: 38px;
-    position: fixed;
-    bottom: 140px;
-    right: 15px;
-    background: none;
+  width: 38px;
+  position: fixed;
+  bottom: 140px;
+  right: 15px;
+  background: none;
 }
 
 .carousel-item {
-    opacity: 65%;
+  opacity: 65%;
 }
 
 @mixin background {
-    color: $secondaryColor;
+  color: $secondaryColor;
 }
 
 .navbar-brand {
-    @include background;
-    font-weight: bolder;
+  @include background;
+  font-weight: bolder;
 }
 
 .container-fluid a {
-    @include background;
+  @include background;
 }
 
 .dropdown-menu {
-    background-color: $mainColor;
+  background-color: $mainColor;
 }
 
 .card {
-    margin: 10px;
-    padding: 1rem;
-    background-color: $mainColor;
-    border: 2px solid #463f3a;
+  margin: 10px;
+  padding: 1rem;
+  margin-bottom: 5rem;
+  background-color: $mainColor;
+  border: 2px solid #463f3a;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: medium;
+  opacity: 70%;
+
+  &:hover {
+    border: 5px solid #463f3a;
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: medium;
-    opacity: 70%;
-
-    &:hover {
-        border: 5px solid #463f3a;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        font-size: small;
-        opacity: 100%;
-    }
+    font-size: small;
+    opacity: 100%;
+  }
 }
 
 .card-title {
-    font-weight: bolder;
+  font-weight: bolder;
 }
 
 .btn-primary {
-    background-color: $secondaryColor;
-    border: 2px solid $secondaryColor;
-    font-weight: bold;
-    color: $mainColor;
+  background-color: $secondaryColor;
+  border: 2px solid $secondaryColor;
+  font-weight: bold;
+  color: $mainColor;
 
-    &:hover {
-        background-color: $thirdColor;
-        border: 2px solid $thirdColor;
-        font-weight: bold;
-        color: $backgroundColor;
-    }
+  &:hover {
+    background-color: $thirdColor;
+    border: 2px solid $thirdColor;
+    font-weight: bold;
+    color: $backgroundColor;
+  }
 }
 
 .row {
-    display: flex;
-    justify-content: center;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .rowProducts {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .top {
-    button {
-        font-weight: bolder;
-        font-size: small;
-        color: $mainColor;
-        background-color: $secondaryColor;
-    }
+  button {
+    font-weight: bolder;
+    font-size: small;
+    color: $mainColor;
+    background-color: $secondaryColor;
+  }
 
-    padding: 0;
-    padding-top: 10px;
+  padding: 0;
+  padding-top: 10px;
 
-    a {
-        font-size: 200%;
-        text-decoration: solid underline;
-    }
+  a {
+    font-size: 200%;
+    text-decoration: solid underline;
+  }
 }
 
 .titles {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-decoration: underline;
-    text-align: center;
-    font-weight: bolder;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: underline;
+  text-align: center;
+  font-weight: bolder;
 }
 
 .faqForm {
-    padding-left: 20px;
-    padding-bottom: 10px;
+  overflow: hidden;
+  padding-left: 20px;
+  padding-bottom: 10px;
 
-    h3 {
-        text-decoration: underline;
-        font-size: smaller;
-    }
+  h3 {
+    text-decoration: underline;
+    font-size: smaller;
+  }
 }
 
 .form-control {
-    background-color: $backgroundColor;
+  background-color: $backgroundColor;
+}
+
+.faqbtn {
+  margin: 2rem;
+  margin-bottom: 4rem;
+}
+
+.lastVideo {
+  margin-bottom: 5rem;
 }
 
 .index {
-    h1 {
-        position: fixed;
-        top: 20px;
-        left: 10px;
-        background: none;
-        animation-name: text;
-        animation-duration: 5s;
-    }
+  h1 {
+    position: fixed;
+    top: 20px;
+    left: 10px;
+    background: none;
+    animation-name: text;
+    animation-duration: 5s;
+  }
 
-    h2 {
-        position: fixed;
-        top: 60px;
-        left: 10px;
-        background: none;
-        text-decoration: underline;
-        animation-name: text;
-        animation-duration: 10s;
-    }
+  h2 {
+    position: fixed;
+    top: 60px;
+    left: 10px;
+    background: none;
+    text-decoration: underline;
+    animation-name: text;
+    animation-duration: 10s;
+  }
 }
 
 h3 {
-    font-size: medium;
+  font-size: medium;
 }
 
 h4 {
-    margin: 0%;
-    padding-left: 20px;
+  margin: 0%;
+  padding-left: 20px;
 }
 
 .flex-column a {
-    color: $secondaryColor;
-    font-size: smaller;
-    padding: 0;
+  color: $secondaryColor;
+  font-size: smaller;
+  padding: 0;
 }
 
 .form-control {
-    margin-left: 20px;
-    width: 500px;
-    font-size: smaller;
+  margin-left: 20px;
+  width: 500px;
+  font-size: smaller;
 }
 
 .form-label {
-    margin-left: 20px;
-    font-size: smaller;
+  margin-left: 20px;
+  font-size: smaller;
 }
 
 .form-check {
-    margin-left: 20px;
-    font-size: 10px;
+  margin-left: 20px;
+  font-size: 10px;
 }
 
 .btn-primary {
-    font-size: smaller;
+  font-size: smaller;
 }
 
 .contactButton {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 .videoExplanation {
-    text-align: center;
-    background-color: $mainColor;
+  text-align: center;
+  background-color: $mainColor;
 }
 
 @keyframes text {
-    0% {
-        opacity: 0%;
-    }
+  0% {
+    opacity: 0%;
+  }
 
-    100% {
-        opacity: 100%;
-    }
+  100% {
+    opacity: 100%;
+  }
 }
 
 @media (max-width: 600px) {
+  .carousel,
+  .navbar {
+    display: none;
+  }
 
-    .carousel,
-    .navbar {
-        display: none;
-    }
+  .botonWhatsApp img {
+    width: 45px;
+    position: fixed;
+    top: 17px;
+    right: 10px;
+    background: none;
+  }
 
-    .botonWhatsApp img {
-        width: 45px;
-        position: fixed;
-        top: 17px;
-        right: 10px;
-        background: none;
-    }
+  .botonInstagram img {
+    width: 38px;
+    position: fixed;
+    top: 20px;
+    right: 60px;
+    background: none;
+  }
 
-    .botonInstagram img {
-        width: 38px;
-        position: fixed;
-        top: 20px;
-        right: 60px;
-        background: none;
-    }
+  .video {
+    width: 75%;
+    height: 75%;
+  }
 
-    .video {
-        width: 75%;
-        height: 75%;
-    }
-
-    .form-control {
-        max-width: 20rem;
-    }
+  .form-control {
+    max-width: 20rem;
+  }
 }
 
 @media (min-width: 601px) {
-
-    .carouselMobile,
-    .flex-column {
-        display: none;
-    }
+  .carouselMobile,
+  .flex-column {
+    display: none;
+  }
 }

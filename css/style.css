@@ -47,6 +47,7 @@
 .card {
   margin: 10px;
   padding: 1rem;
+  margin-bottom: 5rem;
   background-color: #bcb8b1;
   border: 2px solid #463f3a;
   justify-content: center;
@@ -118,6 +119,7 @@
 }
 
 .faqForm {
+  overflow: hidden;
   padding-left: 20px;
   padding-bottom: 10px;
 }
@@ -128,6 +130,15 @@
 
 .form-control {
   background-color: #f4f3ee;
+}
+
+.faqbtn {
+  margin: 2rem;
+  margin-bottom: 4rem;
+}
+
+.lastVideo {
+  margin-bottom: 5rem;
 }
 
 .index h1 {
