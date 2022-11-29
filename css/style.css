@@ -6,6 +6,11 @@
   font-weight: bolder;
 }
 
+.video {
+  margin: 30px;
+  border-color: #463f3a;
+}
+
 .botonWhatsApp img {
   width: 45px;
   position: fixed;
@@ -70,8 +75,8 @@
   color: #bcb8b1;
 }
 .btn-primary:hover {
-  background-color: #8a817C;
-  border: 2px solid #8a817C;
+  background-color: #8a817c;
+  border: 2px solid #8a817c;
   font-weight: bold;
   color: #f4f3ee;
 }
@@ -196,7 +201,8 @@ h4 {
   }
 }
 @media (max-width: 600px) {
-  .carousel, .navbar {
+  .carousel,
+.navbar {
     display: none;
   }
   .botonWhatsApp img {
@@ -222,7 +228,8 @@ h4 {
   }
 }
 @media (min-width: 601px) {
-  .carouselMobile, .flex-column {
+  .carouselMobile,
+.flex-column {
     display: none;
   }
 }

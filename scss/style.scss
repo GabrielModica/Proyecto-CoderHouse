@@ -7,7 +7,12 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
 }
-  
+
+.video {
+    margin: 30px;
+    border-color: #463f3a;
+}
+
 .botonWhatsApp img {
     width: 45px;
     position: fixed;
@@ -15,7 +20,7 @@
     right: 10px;
     background: none;
 }
-  
+
 .botonInstagram img {
     width: 38px;
     position: fixed;
@@ -23,7 +28,7 @@
     right: 15px;
     background: none;
 }
-  
+
 .carousel-item {
     opacity: 65%;
 }
@@ -36,15 +41,15 @@
     @include background;
     font-weight: bolder;
 }
-  
+
 .container-fluid a {
     @include background;
 }
-  
+
 .dropdown-menu {
     background-color: $mainColor;
 }
-  
+
 .card {
     margin: 10px;
     padding: 1rem;
@@ -55,7 +60,7 @@
     text-align: center;
     font-size: medium;
     opacity: 70%;
-  
+
     &:hover {
         border: 5px solid #463f3a;
         justify-content: center;
@@ -65,17 +70,17 @@
         opacity: 100%;
     }
 }
-  
+
 .card-title {
     font-weight: bolder;
 }
-  
+
 .btn-primary {
     background-color: $secondaryColor;
     border: 2px solid $secondaryColor;
     font-weight: bold;
     color: $mainColor;
-  
+
     &:hover {
         background-color: $thirdColor;
         border: 2px solid $thirdColor;
@@ -83,7 +88,7 @@
         color: $backgroundColor;
     }
 }
-  
+
 .row {
     display: flex;
     justify-content: center;
@@ -104,16 +109,16 @@
         color: $mainColor;
         background-color: $secondaryColor;
     }
-  
+
     padding: 0;
     padding-top: 10px;
-  
+
     a {
         font-size: 200%;
         text-decoration: solid underline;
     }
 }
-  
+
 .titles {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -121,21 +126,21 @@
     text-align: center;
     font-weight: bolder;
 }
-  
+
 .faqForm {
     padding-left: 20px;
     padding-bottom: 10px;
-  
+
     h3 {
         text-decoration: underline;
         font-size: smaller;
     }
 }
-  
+
 .form-control {
     background-color: $backgroundColor;
 }
-  
+
 .index {
     h1 {
         position: fixed;
@@ -145,7 +150,7 @@
         animation-name: text;
         animation-duration: 5s;
     }
-  
+
     h2 {
         position: fixed;
         top: 60px;
@@ -156,7 +161,7 @@
         animation-duration: 10s;
     }
 }
-  
+
 h3 {
     font-size: medium;
 }
@@ -171,23 +176,23 @@ h4 {
     font-size: smaller;
     padding: 0;
 }
-  
+
 .form-control {
     margin-left: 20px;
     width: 500px;
     font-size: smaller;
 }
-  
+
 .form-label {
     margin-left: 20px;
     font-size: smaller;
 }
-  
+
 .form-check {
     margin-left: 20px;
     font-size: 10px;
 }
-  
+
 .btn-primary {
     font-size: smaller;
 }
@@ -195,6 +200,7 @@ h4 {
 .contactButton {
     margin-left: 20px;
 }
+
 .videoExplanation {
     text-align: center;
     background-color: $mainColor;
@@ -204,17 +210,19 @@ h4 {
     0% {
         opacity: 0%;
     }
-  
+
     100% {
         opacity: 100%;
     }
 }
 
 @media (max-width: 600px) {
-    .carousel, .navbar {
+
+    .carousel,
+    .navbar {
         display: none;
     }
-  
+
     .botonWhatsApp img {
         width: 45px;
         position: fixed;
@@ -222,7 +230,7 @@ h4 {
         right: 10px;
         background: none;
     }
-  
+
     .botonInstagram img {
         width: 38px;
         position: fixed;
@@ -230,19 +238,21 @@ h4 {
         right: 60px;
         background: none;
     }
-  
+
     .video {
         width: 75%;
         height: 75%;
     }
-  
+
     .form-control {
         max-width: 20rem;
     }
 }
-  
-  @media (min-width: 601px) {
-    .carouselMobile, .flex-column {
+
+@media (min-width: 601px) {
+
+    .carouselMobile,
+    .flex-column {
         display: none;
     }
 }
